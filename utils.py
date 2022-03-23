@@ -13,6 +13,6 @@ def parsing_courses(src):
         return None
 
 
-def recalculating_course(src, dst):
+def recalculating_course(src, dst, amount):
     time_current_course, exchange_rates = parsing_courses(src)  # Рассчёт курса
-    return time_current_course, exchange_rates[dst]
+    return time_current_course, exchange_rates[dst] * amount
