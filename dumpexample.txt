@@ -1,0 +1,2 @@
+kuncevic@Freya:~/mysqlstudies$ mysqldump example > dumpexample.sql
+kuncevic@Freya:~/mysqlstudies$ mysql sample < dumpexample.sql
